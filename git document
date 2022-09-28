@@ -1,0 +1,60 @@
+
+                           Practice program
+
+public class keywords{
+static void changeName(final String name){
+//name="naveen";
+System.out.println(name);
+}
+public static void main(String[]args){
+final String name="sugu";
+keywords.changeName(name);
+}
+}
+
+Output
+
+naveenkumar@naveenkumar-Inspiron-15-3511:~/javaclass$ javac keywords.java
+naveenkumar@naveenkumar-Inspiron-15-3511:~/javaclass$ java keywords
+sugu
+
+                         Practice program
+
+public class keywords{
+static void changeName(String name){
+name="naveen";
+System.out.println(name);
+}
+public static void main(String[]args){
+final String name="sugu";
+keywords.changeName(name);
+}
+}
+
+Output
+
+naveenkumar@naveenkumar-Inspiron-15-3511:~/javaclass$ javac keywords.java
+naveenkumar@naveenkumar-Inspiron-15-3511:~/javaclass$ java keywords
+naveen
+
+                        Practice program
+
+public class FinalWord{
+void biodata(String name, int idNum){
+name="naveen";
+idNum=191812;
+System.out.println(name+idNum);
+}
+public static void main(String[]args){ 
+FinalWord emp=new FinalWord();
+final String name="yuga";
+final int idNum=22;
+emp.biodata(name,idNum);
+}
+}
+
+Output
+
+naveenkumar@naveenkumar-Inspiron-15-3511:~/javaclass$ javac FinalWord.java
+naveenkumar@naveenkumar-Inspiron-15-3511:~/javaclass$ java FinalWord
+naveen191812
